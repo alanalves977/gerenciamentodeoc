@@ -398,8 +398,7 @@ def all_pos_page():
     # Page title 
     st.markdown("<h1 style='text-align: center; color: black;'>Ordens de Compra</h1>", unsafe_allow_html=True)
     st.write("#")
-    st.makdown("---")
-
+    
     # Get orders
     pos = get_all_purchase_orders() 
     
